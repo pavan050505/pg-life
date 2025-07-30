@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dashboard | PG Life</title>
+
+    <!-- Bootstrap & Other Styles -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+    <link href="css/common.css" rel="stylesheet" />
+    <link href="css/dashboard.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <!-- START: HEADER -->
+    <!-- Paste header.html content here -->
+    <!-- END: HEADER -->
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb py-2">
+            <li class="breadcrumb-item">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">
+                Dashboard
+            </li>
+        </ol>
+    </nav>
+
+    <div class="my-profile page-container">
+        <h1>My Profile</h1>
+        <div class="row">
+            <div class="col-md-3 profile-img-container">
+                <i class="fas fa-user profile-img"></i>
+            </div>
+            <div class="col-md-9">
+                <div class="row no-gutters justify-content-between align-items-end">
+                    <div class="profile">
+                        <div class="name">John Doe</div>
+                        <div class="email">johndoe@example.com</div>
+                        <div class="phone">+91 9876543210</div>
+                        <div class="college">ABC Engineering College</div>
+                    </div>
+                    <div class="edit">
+                        <div class="edit-profile">Edit Profile</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Example: My Interested Properties -->
+    <div class="my-interested-properties">
+        <div class="page-container">
+            <h1>My Interested Properties</h1>
+
+            <div class="property-card row">
+                <div class="image-container col-md-4">
+                    <img src="img/properties/1/room1.jpg" />
+                </div>
+                <div class="content-container col-md-8">
+                    <div class="row no-gutters justify-content-between">
+                        <div class="star-container" title="4.5">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="interested-container">
+                            <i class="is-interested-image fas fa-heart" property_id="1"></i>
+                        </div>
+                    </div>
+                    <div class="detail-container">
+                        <div class="property-name">Sunshine PG</div>
+                        <div class="property-address">12, Park Street, Delhi</div>
+                        <div class="property-gender">
+                            <img src="img/properties/" />
+                        </div>
+                    </div>
+                    <div class="row no-gutters">
+                        <div class="rent-container col-6">
+                            <div class="rent">₹ 7,500/-</div>
+                            <div class="rent-unit">per month</div>
+                        </div>
+                        <div class="button-container col-6">
+                            <a href="property_detail.html?property_id=1" class="btn btn-primary">View</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add more property-cards here as needed -->
+
+        </div>
+    </div>
+
+    <!-- START: FOOTER -->
+    <!-- Paste footer.html content here -->
+    <!-- END: FOOTER -->
+
+    <script type="text/javascript" src="js/dashboard.js"></script>
+</body>
+
+</html>
