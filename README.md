@@ -97,15 +97,3 @@ Pavan Sanjay Bhosle
 GitHub: @pavan050505
 
 ---
-
-### ✅ Push to GitHub
-
-1. Save this as `README.md` inside your project folder.
-2. Run the following commands:
-```bash
-git add README.md
-git commit -m "Add in-progress README for PG Life project"
-git push
-
-
-
