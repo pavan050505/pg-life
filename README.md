@@ -32,18 +32,18 @@
 
 
 PGLife/
-├── css/ # Stylesheets
-│ ├── bootstrap.min.css
-│ ├── common.css
-│ ├── dashboard.css
-│ ├── home.css
-│ ├── property_details.css
-│ └── property_list.css
-├── img/ # Images and icons
-├── js/ # JavaScript files
-├── dashboard.html # User dashboard page
-├── index.html # Homepage
-├── property_details.html # PG detail page
+├── css/ # Stylesheets                                                                                                                                                                                                                                                              
+│ ├── bootstrap.min.css                                                                                                                                                                                                                                                             
+│ ├── common.css                                                                                                                                                                                                                                                                    
+│ ├── dashboard.css                                                                                                                                                                                                                                                                 
+│ ├── home.css                                                                                                                                                                                                                                                                      
+│ ├── property_details.css                                                                                                                                                                                                                                                          
+│ └── property_list.css                                                                                                                                                                                                                                                             
+├── img/ # Images and icons                                                                                                                                                                                                                                                         
+├── js/ # JavaScript files                                                                                                                                                                                                                                                          
+├── dashboard.html # User dashboard page                                                                                                                                                                                                                                            
+├── index.html # Homepage                                                                                                                                                                                                                                                           
+├── property_details.html # PG detail page                                                                                                                                                                                                                                          
 └── property_list.html # List of PGs in a city
 
 ---
