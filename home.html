@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome | PG Life</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Font Awesome for icons -->
+    <link href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" rel="stylesheet" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link href="css/common.css" rel="stylesheet" />
+    <link href="css/home.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="header sticky-top">
+        <nav class="navbar navbar-expand-md navbar-light">
+               <a class="navbar-toggler" href="index.html">
+                    <img src="img/logo.png" alt="">
+               </a>   
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#my-navbar">
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+
+               <div class="collapse navbar-collapse justify-content-end" id="my-navbar">
+                 <ul class="navbar-nav">
+                     <li class="nav-item">
+                        <a class="nav-link" href="#" data-toggle="modal" data-target="#signup-modal">
+                            <i class="fas fa-user"></i>Signup
+                        </a>
+                     </li>
+                     <div class="nav-link"></div>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#" data-toggle="modal" data-target="#login-modal">
+                            <i class="fas fa-sign-in-alt"></i>Login
+                        </a>
+                     </li>
+                 </ul>
+               </div>
+        </nav>
+    </div>
+
+    <div id="loading">
+    </div>
+
+    <div class="button-container">
+        <h2 class="white pd-3">Happiness per Square foot</h2>
+
+        <form id="search-form">
+            <div class="input-group city-search">
+                <input type="text" class="form-control input-city" id="city" name="city" placeholder="Enter your City to search for PG's" />
+                <div class="input-group-append">
+                    <button type="submit" class="btn btn-secondary">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+</body>
